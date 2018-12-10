@@ -1,0 +1,6 @@
+
+<modules>
+ <module>../genstar.gamaplugin.feature</module> 
+ <module>../genstar.gamaplugin</module> 
+</modules>
+

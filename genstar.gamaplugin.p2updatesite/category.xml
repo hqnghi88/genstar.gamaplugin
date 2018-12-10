@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="GAMA Update Site">
+      Site containing updates to the GenStar GAMA extension (see http://www.gama-platform.org)
+   </description> 
+ 
+ <feature  url="features/genstar.gamaplugin.feature_1.0.3.qualifier.jar" 
+ 	id="genstar.gamaplugin.feature" version="1.0.3.qualifier"> 
+ 	<category name="org.genstar"/>   
+</feature>
+
+   <category-def name="genstar.gamaplugin.core" label="Core components of GENSTAR"/>
+   <category-def name="genstar.gamaplugin.models" label="GENSTAR Models Library"/>
+</site>
+
+ 

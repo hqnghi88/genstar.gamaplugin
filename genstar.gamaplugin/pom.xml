@@ -2,38 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.genstar</groupId>
   <artifactId>genstar.gamaplugin</artifactId>
-  <packaging>eclipse-plugin</packaging>
+  <packaging>eclipse-feature</packaging>
   <parent>
-  	<groupId>msi.gama</groupId>
-  	<artifactId>msi.gama.experimental.parent</artifactId>
-  	<version>1.7.0-SNAPSHOT</version>
-  	<relativePath>../msi.gama.experimental.parent/</relativePath>
+    <groupId>org.genstar</groupId>
+    <artifactId>genstar.parent</artifactId>
+    <version>1.0.3</version>
+  	<relativePath>../genstar.parent/</relativePath>
   </parent>
   <version>1.0.3</version>
-  <properties>
-  	<genstar.version>1.0.3</genstar.version>
-  </properties>
-  <dependencies>
-	<dependency>
-	  <groupId>org.genstar</groupId>
-	  <artifactId>genstar-core</artifactId>
-	  <version>${genstar.version}</version>
-	</dependency>  
-	<dependency>
-	  <groupId>org.genstar</groupId>
-	  <artifactId>genstar-gospl</artifactId>
-	  <version>${genstar.version}</version>
-	</dependency>  
-	<dependency>
-	  <groupId>org.genstar</groupId>
-	  <artifactId>genstar-spin</artifactId>
-	  <version>${genstar.version}</version>
-	</dependency>
-
-	<dependency>
-		<groupId>org.genstar</groupId>
-		<artifactId>genstar-spll</artifactId>
-		<version>${genstar.version}</version>
-	</dependency>
-  </dependencies>
 </project>

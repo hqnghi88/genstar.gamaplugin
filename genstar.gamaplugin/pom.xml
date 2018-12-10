@@ -5,9 +5,9 @@
   <packaging>eclipse-feature</packaging>
   <parent>
     <groupId>org.genstar</groupId>
-    <artifactId>genstar.parent</artifactId>
+    <artifactId>genstar.gamaplugin.parent</artifactId>
     <version>1.0.3</version>
-  	<relativePath>../genstar.parent/</relativePath>
+  	<relativePath>../genstar.gamaplugin.parent/</relativePath>
   </parent>
   <version>1.0.3</version>
 </project>
